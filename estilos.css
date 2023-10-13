@@ -7,10 +7,148 @@
 body{
     width: 100vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .clock_container{
-    width: 10%;
-    height: 5%;
-    background-color: brown;
+    width: 35vw;
+    height: 70vh;
+    background-color: lightslategray;
+    border-radius: 25%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    width: 28vw;
+    height: 63vh;
+    background-color: midnightblue;
+    border-radius: 50%;
+    border: 1px solid lavenderblush;
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    width: 1px;
+    height: 1px;
+    background-color: aqua;
+    position: absolute;
+    inset-inline-start: 50%;
+    inset-block-start: 50%;
+}
+
+.seconds_pointer{
+    width: 0.1vw;
+    height: 20vh;
+    background-color: antiquewhite;
+    translate: 0 0;
+    rotate: 330deg;
+    transform-origin: 0 0;   
+    position: absolute;
+    
+}
+
+.minutes_pointer{
+    width: 0.1vw;
+    height: 16vh;
+    background-color: yellow;
+    translate: 0 0;
+    rotate: 180deg;
+    transform-origin: 0 0;   
+    position: absolute;
+}
+
+.hours_pointer{
+    width: 0.1vw;
+    height: 12vh;
+    background-color: orangered;
+    translate: 0 0;
+    rotate: 180deg;
+    transform-origin: 0 0;   
+    position: absolute;
+}
+
+
+.one{
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    position: absolute;
+    inset-inline-start: 70%;
+    inset-block-start: 10%;
+}
+
+.two{
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    position: absolute;
+    inset-inline-start: 83%;
+    inset-block-start: 25%;
+}
+
+
+.three{
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    position: absolute;
+    inset-inline-start: 90%;
+    inset-block-start: 45%;
+}
+
+.four{
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    position: absolute;
+    inset-inline-start: 83%;
+    inset-block-start: 65%;
+}
+
+
+.five{
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    position: absolute;
+    inset-inline-start: 70%;
+    inset-block-start: 80%;
+}
+
+.six{
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    position: absolute;
+    inset-inline-start: 48%;
+    inset-block-start: 87%;
+}
+
+
+
+.nine{
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    position: absolute;
+    inset-inline-start: 5%;
+    inset-block-start: 45%;
+}
+
+.twelve{
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    position: absolute;
+    inset-inline-start: 45.5%;
+    inset-block-start: 3%;
 }

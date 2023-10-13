@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.clock_container{
+    width: 10%;
+    height: 5%;
+    background-color: brown;
+}

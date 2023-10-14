@@ -60,7 +60,7 @@ body{
     height: 16vh;
     background-color: yellow;
     translate: 0 0;
-    rotate: 60deg;
+    rotate: 180deg;
     transform-origin: 0 0;   
     position: absolute;
 }
@@ -70,7 +70,7 @@ body{
     height: 14vh;
     background-color: orangered;
     translate: 0 0;
-    rotate: 270deg;
+    rotate: 180deg;
     transform-origin: 0 0;   
     position: absolute;
 }

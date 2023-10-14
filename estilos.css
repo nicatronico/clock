@@ -39,7 +39,6 @@ body{
 .center{
     width: 1px;
     height: 1px;
-    background-color: aqua;
     position: absolute;
     inset-inline-start: 50%;
     inset-block-start: 50%;
@@ -50,7 +49,7 @@ body{
     height: 20vh;
     background-color: antiquewhite;
     translate: 0 0;
-    rotate: 330deg;
+    rotate: 180deg;
     transform-origin: 0 0;   
     position: absolute;
     
@@ -61,17 +60,17 @@ body{
     height: 16vh;
     background-color: yellow;
     translate: 0 0;
-    rotate: 180deg;
+    rotate: 60deg;
     transform-origin: 0 0;   
     position: absolute;
 }
 
 .hours_pointer{
     width: 0.1vw;
-    height: 12vh;
+    height: 14vh;
     background-color: orangered;
     translate: 0 0;
-    rotate: 180deg;
+    rotate: 270deg;
     transform-origin: 0 0;   
     position: absolute;
 }
@@ -133,6 +132,24 @@ body{
     inset-block-start: 87%;
 }
 
+.seven{
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    position: absolute;
+    inset-inline-start: 26%;
+    inset-block-start: 80.1%;
+}
+
+.eight{
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    position: absolute;
+    inset-inline-start: 12%;
+    inset-block-start: 65%;
+}
+
 
 
 .nine{
@@ -142,6 +159,26 @@ body{
     position: absolute;
     inset-inline-start: 5%;
     inset-block-start: 45%;
+}
+
+
+.ten{
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    position: absolute;
+    inset-inline-start: 10%;
+    inset-block-start: 25%;
+}
+
+
+.eleven{
+    color: white;
+    font-size: xx-large;
+    font-weight: 700;
+    position: absolute;
+    inset-inline-start: 25%;
+    inset-block-start: 10%;
 }
 
 .twelve{

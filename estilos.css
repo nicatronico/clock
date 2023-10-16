@@ -8,32 +8,49 @@ body{
     width: 100vw;
     height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    padding: 0.5% 0%;
+    row-gap: 2%;
 }
 
-.clock_container{
-    width: 35vw;
-    height: 70vh;
-    background-color: lightslategray;
-    border-radius: 25%;
-    position: absolute;
+.flex{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.digital_clock{
+    width: 22vw;
+    height: 10vw;
+    background-color: gray;
+   
+}
+
+.lcd{
+    width: 85%;
+    height: 80%;
+    background-color: darkslategray;
+    font-size: 3.5vw;
+    color: lawngreen;
+}
+
+
+.clock_container{
+    width: 30vw;
+    height: 30vw;
+    background-color: lightslategray;
+    border-radius: 25%;
+    position: relative;
+}
+
 .circle{
-    width: 28vw;
-    height: 63vh;
+    width: 27vw;
+    height: 27vw;
     background-color: midnightblue;
     border-radius: 50%;
     border: 1px solid lavenderblush;
     position: absolute;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .center{
@@ -45,107 +62,82 @@ body{
 }
 
 .seconds_pointer{
-    width: 0.1vw;
-    height: 20vh;
-    background-color: antiquewhite;
-    translate: 0 0;
-    rotate: 180deg;
-    transform-origin: 0 0;   
-    position: absolute;
-    
+    height: 8.5vw;
+    background-color: antiquewhite;   
 }
 
 .minutes_pointer{
-    width: 0.1vw;
-    height: 16vh;
-    background-color: yellow;
-    translate: 0 0;
-    rotate: 180deg;
-    transform-origin: 0 0;   
-    position: absolute;
+    height: 7vw;
+    background-color: yellow; 
 }
 
 .hours_pointer{
-    width: 0.1vw;
-    height: 14vh;
-    background-color: orangered;
-    translate: 0 0;
+    height: 5vw;
+    background-color: orangered;      
+}
+
+.pointer{
+    width: 0.2vw;
     rotate: 180deg;
-    transform-origin: 0 0;   
+    transform-origin: 0 0; 
+    position: absolute;  
+}
+
+.pointer_cover{
+    width: 0.8vw;
+    height: 0.8vw;
+    background-color: gray;
+    border-radius: 50%;
+    inset-block-start: -0.8vh;
+    inset-inline-start: -0.3vw;
+    position: relative;
+}
+
+.number{
+    color: white;
+    font-size: 3vw;
+    font-weight: 700;
     position: absolute;
 }
 
-
 .one{
-    color: white;
-    font-size: xx-large;
-    font-weight: 700;
-    position: absolute;
-    inset-inline-start: 70%;
-    inset-block-start: 10%;
+    inset-inline-start: 69.8%;
+    inset-block-start: 8%;
 }
 
 .two{
-    color: white;
-    font-size: xx-large;
-    font-weight: 700;
-    position: absolute;
     inset-inline-start: 83%;
-    inset-block-start: 25%;
+    inset-block-start: 24%;
 }
 
 
 .three{
-    color: white;
-    font-size: xx-large;
-    font-weight: 700;
-    position: absolute;
     inset-inline-start: 90%;
     inset-block-start: 45%;
 }
 
 .four{
-    color: white;
-    font-size: xx-large;
-    font-weight: 700;
-    position: absolute;
     inset-inline-start: 83%;
     inset-block-start: 65%;
 }
 
 
 .five{
-    color: white;
-    font-size: xx-large;
-    font-weight: 700;
-    position: absolute;
     inset-inline-start: 70%;
     inset-block-start: 80%;
 }
 
 .six{
-    color: white;
-    font-size: xx-large;
-    font-weight: 700;
-    position: absolute;
     inset-inline-start: 48%;
     inset-block-start: 87%;
 }
 
 .seven{
-    color: white;
-    font-size: xx-large;
-    font-weight: 700;
-    position: absolute;
     inset-inline-start: 26%;
     inset-block-start: 80.1%;
 }
 
 .eight{
-    color: white;
-    font-size: xx-large;
-    font-weight: 700;
-    position: absolute;
     inset-inline-start: 12%;
     inset-block-start: 65%;
 }
@@ -153,39 +145,23 @@ body{
 
 
 .nine{
-    color: white;
-    font-size: xx-large;
-    font-weight: 700;
-    position: absolute;
-    inset-inline-start: 5%;
+    inset-inline-start: 4%;
     inset-block-start: 45%;
 }
 
 
 .ten{
-    color: white;
-    font-size: xx-large;
-    font-weight: 700;
-    position: absolute;
-    inset-inline-start: 10%;
-    inset-block-start: 25%;
+    inset-inline-start: 9%;
+    inset-block-start: 24%;
 }
 
 
 .eleven{
-    color: white;
-    font-size: xx-large;
-    font-weight: 700;
-    position: absolute;
-    inset-inline-start: 25%;
-    inset-block-start: 10%;
+    inset-inline-start: 23.5%;
+    inset-block-start: 7.5%;
 }
 
 .twelve{
-    color: white;
-    font-size: xx-large;
-    font-weight: 700;
-    position: absolute;
-    inset-inline-start: 45.5%;
-    inset-block-start: 3%;
+    inset-inline-start: 44.5%;
+    inset-block-start: 2%;
 }
